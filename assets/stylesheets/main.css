@@ -106,16 +106,102 @@ table {
   *zoom: 1;
 }
 
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
 /*
   ========================================
   Typography
   ========================================
 */
-
-h1, h3, h4, h5, p {
-  margin-bottom: 22px;
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+}
+.tagline {
+  margin: 66px 0 22px 0;
 }
 
+body {
+  color: #648880;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+  color: #648880;
+  
+}
+h1, h2, h3, h4 {
+  color: #648880;
+}
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
+a:hover {
+  color: #a9b2b9;
+}
+a {
+  color: #648880;
+h2,
+  p {
+    color: #555;
+    
+  }
+  
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  .byline {
+    color: #9799a7;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    margin-bottom: 18px;
+  }
+  .primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .primary-footer {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+  }
+  .primary-footer small {
+    float: left;
+    font-weight: 400;
+  }
+  .hero {
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+  }
+  .hero h2 {
+    font-size: 36px;
+  }
+  .hero p {
+    font-size: 24px;
+  }
 /*
   ========================================
   Buttons
@@ -142,7 +228,11 @@ h1, h3, h4, h5, p {
   border-top: 4px solid #648880;
   float: left;
   padding: 40px 0 22px 0;
-}
+    font-size: 48px;
+    line-height: 44px;
+
+  }
+  
 
 /*
   ========================================
